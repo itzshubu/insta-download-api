@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/src/style.css">
+  <link rel="stylesheet" media="screen and (max-width:900px)" href="./src/phone.css">
+</head>
+
+<body>
+  <%- include('navbar'); %>
+    <!-- main section started from here -->
+    <div  id="mainsec">
+      <h1 class="headingh1">Paste Your link Here👇</h1>
+      <div class="formdiv">
+        <form action="#">
+          <input type="text" id="url" placeholder="Plese Enter the url" name="text">
+          <button type="submit" class="button1">Submit</button>
+        </form>
+      </div> 
+    </div>
+   
+    <script src="/src/script.js" type="module"></script>
+</body>
+
+</html>

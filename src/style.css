@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.img img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    box-shadow: 2px 2px 3px gray;
+   
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-h1{
+    padding: 2px;
+    margin: 0px 20px;
+    box-shadow: 2px 2px 3px gray;
+}
+header{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.ul,ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    padding: 3px 10px;
+    margin: 0px 5px;
+    color: black;
+    font-weight:600;
+    font-size: 20px;
+    transition: all .3s ease-out;
+}
+hr{
+    display: none;
+}
+a:hover{
+   text-decoration: underline;
+   border-radius: 0px;
+}
+
+/* Main section css started from here */
+.headingh1{
+    font-size:xx-large;
+    /* text-align: center; */
+}
+.formdiv{
+   text-align: center;
+   margin: 10px;
+}
+input{
+     width: 60vw;
+    height: 30px;
+    padding: 5px 10px ;
+}
+.button1{
+    height: 30px;
+    padding: 5px 10px ;
+}
+.button2{
+    height: 30px;
+    padding: 5px 10px ;
+    margin: 10px auto;
+}
+#mainsec{
+    text-align: center;
+}
+.downloadanchor{
+    display: block;
+    margin: 5px auto 15px auto;
+}
+.insimage{
+    width: 500px;
+}
+.insvideo{
+    width: 500px;
+}
