@@ -34,7 +34,7 @@ const options = {
     url: url
   },
   headers: {
-    'X-RapidAPI-Key': 'your-rapid-api-key',
+    'X-RapidAPI-Key': `${process.env.API_KEY}`,
     'X-RapidAPI-Host': 'instagram-api39.p.rapidapi.com'
   }
 };
